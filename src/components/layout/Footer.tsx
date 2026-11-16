@@ -119,10 +119,10 @@ export function Footer() {
             {/* Social */}
             <div className="flex items-center gap-3 mt-6">
               {[
-                { Icon: Linkedin, href: "https://linkedin.com/company/akvorix", label: "LinkedIn" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/company/akvorix", label: "LinkedIn" },
+                { Icon: Instagram, href: "https://www.instagram.com/akvorix/", label: "Instagram" },
                 { Icon: Twitter, href: "https://twitter.com/akvorix", label: "Twitter" },
                 { Icon: Youtube, href: "https://youtube.com/@akvorix", label: "YouTube" },
-                { Icon: Instagram, href: "https://instagram.com/akvorix", label: "Instagram" },
               ].map(({ Icon, href, label }) => (
                 <a
                   key={label}

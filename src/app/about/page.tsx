@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Target, Eye, Heart, Globe2, Award, Users2, TrendingUp, Calendar } from "lucide-react";
+import { ArrowRight, Target, Eye, Heart, Globe2, Award, Users2, TrendingUp, Calendar, Linkedin, Instagram } from "lucide-react";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/animations/FadeIn";
 import { CTASection } from "@/components/sections/CTASection";
 
@@ -95,9 +95,31 @@ export default function AboutPage() {
                 <blockquote className="text-text-secondary leading-relaxed italic mb-6">
                   "I started AKVORIX because I believe AI is the greatest business equalizer of our generation. Large enterprises have had AI advantages for years. We're giving those same advantages to ambitious businesses everywhere — from a medical practice in Texas to a real estate firm in London to a restaurant group in Mumbai."
                 </blockquote>
-                <div className="flex items-center gap-3 pt-6 border-t border-border">
-                  <div className="w-2 h-2 rounded-full bg-primary" aria-hidden="true" />
-                  <span className="text-text-muted text-sm">Building the future of work, one automation at a time</span>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-6 border-t border-border">
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 rounded-full bg-primary" aria-hidden="true" />
+                    <span className="text-text-muted text-sm">Building the future of work, one automation at a time</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <a
+                      href="https://www.linkedin.com/company/akvorix"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="LinkedIn"
+                      className="w-8 h-8 rounded-lg bg-surface hover:bg-primary/20 text-text-muted hover:text-primary border border-border flex items-center justify-center transition-colors"
+                    >
+                      <Linkedin className="w-4 h-4" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/akvorix/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instagram"
+                      className="w-8 h-8 rounded-lg bg-surface hover:bg-primary/20 text-text-muted hover:text-primary border border-border flex items-center justify-center transition-colors"
+                    >
+                      <Instagram className="w-4 h-4" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </FadeIn>

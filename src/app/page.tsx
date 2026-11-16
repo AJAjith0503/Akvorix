@@ -33,7 +33,8 @@ const jsonLd = {
     availableLanguage: "English",
   },
   sameAs: [
-    "https://linkedin.com/company/akvorix",
+    "https://www.linkedin.com/company/akvorix",
+    "https://www.instagram.com/akvorix/",
     "https://twitter.com/akvorix",
   ],
   address: {

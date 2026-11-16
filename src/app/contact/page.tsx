@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FadeIn } from "@/components/animations/FadeIn";
-import { Mail, Phone, MapPin, Send, Loader2 } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Loader2, Linkedin, Instagram } from "lucide-react";
 import { RobotHoverIndicator } from "@/components/ui/RobotHoverIndicator";
 import { getVisitorBehavior, captureVisitorEmail } from "@/lib/visitorTracker";
 
@@ -119,6 +119,32 @@ export default function ContactPage() {
                       <div>
                          <div className="text-sm text-text-muted mb-1">Global HQ</div>
                          <div className="text-lg font-medium text-text-primary">San Francisco, CA<br/><span className="text-sm font-normal text-text-secondary">Offices in London & Bangalore</span></div>
+                      </div>
+                   </div>
+
+                   <div className="flex flex-col gap-2 pt-2">
+                      <div className="text-sm text-text-muted">Connect on Social</div>
+                      <div className="flex items-center gap-3">
+                         <a
+                            href="https://www.linkedin.com/company/akvorix"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-br from-[#6B3F69]/10 via-[#8B5F89]/10 to-[#A97EA7]/10 hover:from-[#6B3F69] hover:via-[#8B5F89] hover:to-[#A97EA7] text-text-primary hover:text-white border border-[#6B3F69]/20 hover:border-transparent transition-all duration-300 text-sm font-medium shadow-sm"
+                         >
+                            <Linkedin className="w-4 h-4" />
+                            LinkedIn
+                         </a>
+                         <a
+                            href="https://www.instagram.com/akvorix/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram"
+                            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-br from-[#6B3F69]/10 via-[#8B5F89]/10 to-[#A97EA7]/10 hover:from-[#6B3F69] hover:via-[#8B5F89] hover:to-[#A97EA7] text-text-primary hover:text-white border border-[#6B3F69]/20 hover:border-transparent transition-all duration-300 text-sm font-medium shadow-sm"
+                         >
+                            <Instagram className="w-4 h-4" />
+                            Instagram
+                         </a>
                       </div>
                    </div>
                 </div>
