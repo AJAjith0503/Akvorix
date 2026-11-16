@@ -1,0 +1,156 @@
+{
+  "totalVisits": 0,
+  "uniqueVisitors": 0,
+  "visitorIds": [],
+  "capturedEmails": [],
+  "visitorJourneys": {
+    "v_jejs769y7mwiqkw8g": {
+      "visitorId": "v_jejs769y7mwiqkw8g",
+      "sessionStarted": "2026-11-16T04:01:20.944Z",
+      "lastActive": "2026-11-16T06:29:55.436Z",
+      "totalTimeOnSiteSeconds": 1736,
+      "pages": {
+        "/": {
+          "path": "/",
+          "title": "AKVORIX — AI Automation Agency | Save Time, Cut Costs, Scale Business",
+          "visitCount": 11,
+          "totalDurationSeconds": 1696,
+          "firstVisited": "2026-11-16T04:01:20.944Z",
+          "lastVisited": "2026-11-16T05:31:12.827Z"
+        },
+        "/about": {
+          "path": "/about",
+          "title": "/about",
+          "visitCount": 1,
+          "totalDurationSeconds": 40,
+          "firstVisited": "2026-11-16T04:02:49.273Z",
+          "lastVisited": "2026-11-16T04:02:49.273Z"
+        }
+      },
+      "clicks": [
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "9:31:28 AM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "9:31:32 AM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "9:32:44 AM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "9:32:46 AM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "9:32:47 AM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/about",
+          "timestamp": "9:35:29 AM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "9:35:33 AM"
+        },
+        {
+          "text": "What's the typical ROI on automation projects?",
+          "elementId": "faq-question-2",
+          "elementClass": "w-full flex items-center justify-between gap-4 p-4 sm:p-5 md",
+          "page": "/",
+          "timestamp": "9:54:40 AM"
+        },
+        {
+          "text": "What's the typical ROI on automation projects?",
+          "elementId": "faq-question-2",
+          "elementClass": "w-full flex items-center justify-between gap-4 p-4 sm:p-5 md",
+          "page": "/",
+          "timestamp": "9:54:42 AM"
+        },
+        {
+          "text": "How do you handle data security and privacy?",
+          "elementId": "faq-question-3",
+          "elementClass": "w-full flex items-center justify-between gap-4 p-4 sm:p-5 md",
+          "page": "/",
+          "timestamp": "9:54:43 AM"
+        },
+        {
+          "text": "How do you handle data security and privacy?",
+          "elementId": "faq-question-3",
+          "elementClass": "w-full flex items-center justify-between gap-4 p-4 sm:p-5 md",
+          "page": "/",
+          "timestamp": "9:54:44 AM"
+        },
+        {
+          "text": "How do you handle data security and privacy?",
+          "elementId": "faq-question-3",
+          "elementClass": "w-full flex items-center justify-between gap-4 p-4 sm:p-5 md",
+          "page": "/",
+          "timestamp": "9:54:44 AM"
+        },
+        {
+          "text": "How do you handle data security and privacy?",
+          "elementId": "faq-question-3",
+          "elementClass": "w-full flex items-center justify-between gap-4 p-4 sm:p-5 md",
+          "page": "/",
+          "timestamp": "9:54:46 AM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "10:03:36 AM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "10:03:49 AM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "10:18:53 AM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "11:01:21 AM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "11:20:14 AM"
+        }
+      ],
+      "inferredInterests": [],
+      "referrer": "Direct",
+      "device": "Desktop"
+    }
+  },
+  "lastUpdated": "2026-11-16T06:29:55.462Z"
+}
