@@ -2,6 +2,16 @@ import { NextResponse } from "next/server";
 import { resend, NOTIFICATION_EMAIL } from "@/lib/resend";
 import { generateBehaviorHtml } from "@/lib/visitorTracker";
 
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+};
+
+export async function OPTIONS() {
+  return new NextResponse(null, { status: 200, headers: corsHeaders });
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();
@@ -109,15 +119,15 @@ export async function POST(req: Request) {
 
     if (result.error) {
       console.error("Resend API Error:", result.error);
-      return NextResponse.json({ error: result.error.message }, { status: 400 });
+      return NextResponse.json({ error: result.error.message }, { status: 400, headers: corsHeaders });
     }
 
-    return NextResponse.json({ success: true, id: result.data?.id });
+    return NextResponse.json({ success: true, id: result.data?.id }, { headers: corsHeaders });
   } catch (error: any) {
     console.error("Contact API Exception:", error);
     return NextResponse.json(
       { error: error?.message || "Internal server error" },
-      { status: 500 }
+      { status: 500, headers: corsHeaders }
     );
   }
 }

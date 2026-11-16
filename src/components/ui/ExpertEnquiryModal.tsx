@@ -129,7 +129,12 @@ export function ExpertEnquiryModal() {
 
     try {
       const currentBehavior = getVisitorBehavior();
-      const res = await fetch("/api/contact", {
+      const apiUrl =
+        typeof window !== "undefined" && window.location.hostname === "akvorix.com"
+          ? "https://www.akvorix.com/api/contact"
+          : "/api/contact";
+
+      const res = await fetch(apiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -139,7 +144,13 @@ export function ExpertEnquiryModal() {
         }),
       });
 
-      const data = await res.json();
+      let data: any = {};
+      try {
+        data = await res.json();
+      } catch {
+        data = { error: `Server error (${res.status} ${res.statusText})` };
+      }
+
       if (!res.ok) {
         throw new Error(data.error || "Failed to submit enquiry. Please try again.");
       }

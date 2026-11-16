@@ -33,7 +33,12 @@ export default function ContactPage() {
 
     try {
       const currentBehavior = getVisitorBehavior();
-      const res = await fetch("/api/contact", {
+      const apiUrl =
+        typeof window !== "undefined" && window.location.hostname === "akvorix.com"
+          ? "https://www.akvorix.com/api/contact"
+          : "/api/contact";
+
+      const res = await fetch(apiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -43,7 +48,13 @@ export default function ContactPage() {
         }),
       });
 
-      const result = await res.json();
+      let result: any = {};
+      try {
+        result = await res.json();
+      } catch {
+        result = { error: `Server error (${res.status} ${res.statusText})` };
+      }
+
       if (!res.ok) {
         throw new Error(result.error || "Failed to send message. Please try again.");
       }
