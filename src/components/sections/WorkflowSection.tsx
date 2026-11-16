@@ -95,11 +95,13 @@ export function WorkflowSection() {
               <div className="relative rounded-xl overflow-hidden bg-black/95 aspect-video flex items-center justify-center shadow-inner">
                 <video
                   src="/video/brandvideo.mp4"
+                  poster="/video/brandvideo-poster.jpg"
                   playsInline
                   autoPlay
                   muted
+                  loop
                   controls
-                  preload="metadata"
+                  preload="auto"
                   className="w-full h-full object-contain rounded-xl"
                 />
               </div>
