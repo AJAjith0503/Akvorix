@@ -146,7 +146,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline block leading-snug xl:whitespace-nowrap"
+                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline inline-block leading-snug xl:whitespace-nowrap"
                   >
                     {link.label}
                   </Link>
@@ -163,7 +163,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline block leading-snug xl:whitespace-nowrap"
+                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline inline-block leading-snug xl:whitespace-nowrap"
                   >
                     {link.label}
                   </Link>
@@ -180,7 +180,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline block leading-snug xl:whitespace-nowrap"
+                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline inline-block leading-snug xl:whitespace-nowrap"
                   >
                     {link.label}
                   </Link>
@@ -197,7 +197,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline block leading-snug xl:whitespace-nowrap"
+                    className="text-text-muted hover:text-text-primary transition-colors text-sm animated-underline inline-block leading-snug xl:whitespace-nowrap"
                   >
                     {link.label}
                   </Link>

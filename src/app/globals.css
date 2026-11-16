@@ -230,6 +230,9 @@ body {
 /* Animated underline */
 .animated-underline {
   position: relative;
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .animated-underline::after {
