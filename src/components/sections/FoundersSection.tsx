@@ -44,6 +44,7 @@ const FOUNDERS: FounderProfile[] = [
     name: 'Ajith K V',
     role: 'Founder',
     subtitle: 'Founder · Leads AKVORIX and builds its products',
+    image: '/images/founders/ajith-k-v.jpg',
     initials: 'AK',
     linkedin: 'https://www.linkedin.com/in/ajith-k-v-aj1484/',
     github: 'https://github.com/AJAjith0503',
@@ -188,7 +189,9 @@ export function FoundersSection() {
                           src={founder.image}
                           alt={founder.name}
                           fill
-                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          sizes="(max-width: 640px) 192px, (max-width: 768px) 224px, 256px"
+                          priority={index === 0}
+                          className="object-cover object-[center_20%] transition-transform duration-500 group-hover:scale-105"
                         />
                       ) : (
                         <div className="w-full h-full relative flex flex-col items-center justify-center p-6 bg-gradient-to-b from-surface via-surface/95 to-surface/90">

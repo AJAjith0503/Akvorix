@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Target, Eye, Heart, Globe2, Award, Users2, TrendingUp, Linkedin, Instagram } from "lucide-react";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/animations/FadeIn";
 import { FoundersSection } from "@/components/sections/FoundersSection";
@@ -76,12 +77,19 @@ export default function AboutPage() {
               {/* Founder card */}
               <div className="glass border border-border rounded-3xl p-8">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-text-primary font-bold text-2xl">
-                    A
+                  <div className="relative w-16 h-16 rounded-2xl p-[1.5px] bg-gradient-to-br from-[#6B3F69] via-[#8B5F89] to-[#A97EA7] shadow-md shadow-[#6B3F69]/20 shrink-0">
+                    <div className="w-full h-full rounded-[14px] overflow-hidden relative bg-surface">
+                      <Image
+                        src="/images/founders/ajith-k-v.jpg"
+                        alt="Ajith K V — Founder AKVORIX"
+                        fill
+                        className="object-cover object-[center_20%]"
+                      />
+                    </div>
                   </div>
                   <div>
-                    <div className="font-display font-bold text-xl text-text-primary">Founder's Note</div>
-                    <div className="text-text-muted text-sm">AKVORIX Leadership</div>
+                    <div className="font-display font-bold text-xl text-text-primary">Ajith K V</div>
+                    <div className="text-text-muted text-sm">Founder & Chief Architect · AKVORIX</div>
                   </div>
                 </div>
                 <blockquote className="text-text-secondary leading-relaxed italic mb-6">
