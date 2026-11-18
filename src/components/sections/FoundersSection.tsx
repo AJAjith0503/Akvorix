@@ -101,7 +101,7 @@ const FOUNDERS: FounderProfile[] = [
 
 export function FoundersSection() {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden border-t border-border/40" id="founders">
+    <section className="relative py-20 md:py-32 overflow-x-clip border-t border-border/40" id="founders">
       {/* Background ambient accents */}
       <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#6B3F69]/10 rounded-full blur-3xl pointer-events-none -translate-x-1/2" />
       <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-[#A97EA7]/10 rounded-full blur-3xl pointer-events-none translate-x-1/2" />
@@ -126,13 +126,14 @@ export function FoundersSection() {
           {FOUNDERS.map((founder, index) => (
             <div
               key={founder.name}
-              className={`grid lg:grid-cols-12 gap-10 lg:gap-16 items-start ${
+              className={`grid lg:grid-cols-12 gap-10 lg:gap-16 relative ${
                 index < FOUNDERS.length - 1 ? 'pb-20 md:pb-28 border-b border-border/50' : ''
               }`}
             >
               {/* Left Column: Sticky Profile Card */}
-              <div className="lg:col-span-4 lg:sticky lg:top-28">
-                <FadeIn direction="right" delay={0.1}>
+              <div className="lg:col-span-4 self-stretch relative">
+                <div className="lg:sticky lg:top-28 z-20">
+                  <FadeIn direction="none" delay={0.1}>
                   {/* Squircle Avatar */}
                   <div className="relative group w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-[28px] p-[2.5px] bg-gradient-to-tr from-[#6B3F69] via-[#8B5F89] to-[#A97EA7] shadow-xl shadow-[#6B3F69]/20">
                     <div className="w-full h-full rounded-[25.5px] bg-surface relative overflow-hidden flex flex-col items-center justify-center">
@@ -204,6 +205,7 @@ export function FoundersSection() {
                   </div>
                 </FadeIn>
               </div>
+            </div>
 
               {/* Right Column: Bio, Projects, Skills & Path */}
               <div className="lg:col-span-8">
