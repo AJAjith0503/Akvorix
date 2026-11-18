@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Target, Eye, Heart, Globe2, Award, Users2, TrendingUp, Linkedin, Instagram } from "lucide-react";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/animations/FadeIn";
+import { FoundersSection } from "@/components/sections/FoundersSection";
 import { CTASection } from "@/components/sections/CTASection";
 
 export const metadata: Metadata = {
@@ -117,6 +118,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Meet the founders */}
+      <FoundersSection />
 
       {/* Mission & Vision */}
       <section className="section-sm" aria-labelledby="mission-heading">
