@@ -45,7 +45,7 @@ const FOUNDERS: FounderProfile[] = [
     role: 'Founder',
     subtitle: 'Founder · Leads AKVORIX and builds its products',
     initials: 'AK',
-    linkedin: 'https://www.linkedin.com/company/akvorix',
+    linkedin: 'https://www.linkedin.com/in/ajith-k-v-aj1484/',
     github: 'https://github.com/AJAjith0503',
     email: 'mailto:contact@akvorix.com',
     category: 'Full-stack and AI engineering',

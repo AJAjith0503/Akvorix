@@ -94,7 +94,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <a
-                      href="https://www.linkedin.com/company/akvorix"
+                      href="https://www.linkedin.com/in/ajith-k-v-aj1484/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="LinkedIn"
