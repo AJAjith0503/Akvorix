@@ -6,8 +6,8 @@
 .projects-root {
   position: relative;
   width: 100%;
-  background: #ffffff;
-  color: #000000;
+  background: transparent;
+  color: var(--text-primary, #000000);
 }
 
 /* ── Viewport-sized wrapper (pinned by ScrollTrigger) ── */
@@ -16,9 +16,7 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background: 
-    radial-gradient(circle at 12% 18%, rgba(107, 63, 105, 0.06) 0%, transparent 45%),
-    radial-gradient(circle at 88% 82%, rgba(107, 63, 105, 0.05) 0%, transparent 50%);
+  background: transparent;
 }
 
 /* ── Section header position ── */
@@ -240,6 +238,7 @@ body:has(.case-study-page) .projects-card-number {
 .projects-detail-section.is-active {
   visibility: visible;
   pointer-events: auto;
+  background: var(--background, #F7F7F7);
 }
 
 /* individual detail panel */
