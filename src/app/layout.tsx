@@ -86,7 +86,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="overflow-x-hidden min-h-screen">
+      <body className="overflow-x-clip min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           {/* Brand Water Fill Preloader on site load / refresh */}
           <Preloader />

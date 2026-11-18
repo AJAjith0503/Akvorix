@@ -190,11 +190,11 @@ export default function ServicePage({ params }: Props) {
               </FadeIn>
             </div>
 
-            {/* Sidebar */}
-            <div className="flex flex-col gap-5">
-              <div className="sticky top-28">
-                {/* Quick info card */}
-                <FadeIn delay={0.2} direction="left">
+            {/* Sidebar — Sticky in laptop view while content scrolls */}
+            <div className="lg:col-span-1 relative">
+              <div className="lg:sticky lg:top-28 space-y-5">
+                <FadeIn delay={0.2} direction="none">
+                  {/* Quick info card */}
                   <div className="glass border border-border rounded-2xl p-6 mb-5">
                     <h3 className="font-display font-semibold text-text-primary text-lg mb-5">Service Overview</h3>
                     <div className="flex flex-col gap-4">
