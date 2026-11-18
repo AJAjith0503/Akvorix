@@ -7,7 +7,6 @@ import { Flip } from 'gsap/Flip';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 import { motion, AnimatePresence } from 'framer-motion';
-import ScrambleText from '../ui/ScrambleText';
 import { WEB_PROJECTS } from '../../data/webProjects';
 import '../../styles/Projects.css';
 
@@ -346,11 +345,9 @@ export default function WebProjectsSection() {
 
       <div ref={scrollWrapperRef} className="projects-scroll-wrapper">
         <div className="projects-section-header animate-element section-header-container">
-          <span className="projects-section-num section-header-num">
-            <ScrambleText text="[ 07 ]" variant="heading" autoPlay />
-          </span>
+          <span className="projects-section-num section-header-num">[ 07 ]</span>
           <h2 className="projects-section-title section-header-title">
-            <ScrambleText text="WEB PROJECTS" variant="heading" autoPlay />
+            WEB <span className="gradient-text">PROJECTS</span>
           </h2>
         </div>
 
