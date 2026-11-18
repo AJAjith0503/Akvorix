@@ -3,7 +3,6 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { ProblemSection } from "@/components/sections/ProblemSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { WorkflowSection } from "@/components/sections/WorkflowSection";
-import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { ProcessPreview } from "@/components/sections/ProcessPreview";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { CTASection } from "@/components/sections/CTASection";
@@ -56,7 +55,6 @@ export default function HomePage() {
       <ProblemSection />
       <ServicesSection />
       <WorkflowSection />
-      <TestimonialsSection />
       <ProcessPreview />
       <FAQSection />
       <CTASection />

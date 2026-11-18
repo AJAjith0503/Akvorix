@@ -127,7 +127,6 @@ export function FullPageScrollRobot() {
     const servicesSec = getElPos('section[aria-labelledby="services-heading"]');
     const workflowSec = getElPos('section[aria-labelledby="workflow-heading"]');
     const wfTimeline = getElPos("#workflow-timeline");
-    const testimonialsSec = getElPos('section[aria-labelledby="testimonials-heading"]');
     const processSec = getElPos('section[aria-labelledby="process-heading"]');
     const prTimeline = getElPos("#process-timeline");
     const faqSec = getElPos('section[aria-labelledby="faq-heading"]');
@@ -140,9 +139,7 @@ export function FullPageScrollRobot() {
     const sH = servicesSec?.height ?? vh * 1.0;
     const wTop = workflowSec?.top ?? sTop + sH;
     const wH = workflowSec?.height ?? vh * 2.0;
-    const tTop = testimonialsSec?.top ?? wTop + wH;
-    const tH = testimonialsSec?.height ?? vh * 0.8;
-    const prTop = processSec?.top ?? tTop + tH;
+    const prTop = processSec?.top ?? wTop + wH;
     const prSecH = processSec?.height ?? vh * 1.4;
     const fTop = faqSec?.top ?? prTop + prSecH;
     const fH = faqSec?.height ?? vh * 0.7;
@@ -232,22 +229,12 @@ export function FullPageScrollRobot() {
         y: Math.max(pWfBottomRight.y + 40, wfBottomPos + 30),
       };
 
-      // 5. Exit Workflow into Testimonials (strictly below Workflow)
-      const pTestim1 = {
-        x: clampMobileX(midX - amp * 0.5),
-        y: Math.max(pWfBottomMiddle.y + 70, tTop + tH * 0.35),
-      };
-      const pTestim2 = {
-        x: clampMobileX(midX + amp * 0.5),
-        y: Math.max(pTestim1.y + 70, tTop + tH * 0.75),
-      };
-
-      // 6. Approach curve into Process left rail (x = prLeft + 18)
+      // 5. Approach curve directly into Process left rail (x = prLeft + 18)
       const prFirstIcon = getElPos("#process-step-icon-0");
       const prLastIcon = getElPos("#process-step-icon-3");
       const pPrApproach = {
         x: prLeft + 18,
-        y: Math.max(pTestim2.y + 60, prTopPos + 30),
+        y: Math.max(pWfBottomMiddle.y + 60, prTopPos + 30),
       };
       const prStep1 = {
         x: prLeft + 18,
@@ -280,9 +267,7 @@ export function FullPageScrollRobot() {
       d += appendVerticalBezier(pWfTopRight, pWfMidRight);
       d += appendVerticalBezier(pWfMidRight, pWfBottomRight);
       d += appendVerticalBezier(pWfBottomRight, pWfBottomMiddle);
-      d += appendVerticalBezier(pWfBottomMiddle, pTestim1);
-      d += appendVerticalBezier(pTestim1, pTestim2);
-      d += appendVerticalBezier(pTestim2, pPrApproach);
+      d += appendVerticalBezier(pWfBottomMiddle, pPrApproach);
       d += appendVerticalBezier(pPrApproach, prStep1);
       d += ` L ${prStep4.x.toFixed(1)} ${prStep4.y.toFixed(1)}`;
       d += appendVerticalBezier(prStep4, pFaq1);
@@ -293,7 +278,6 @@ export function FullPageScrollRobot() {
       milestonePoints.push(
         pProb1, pProb2, pProb3, pProb4,
         pServ1, pServ2, pServ3, pServ4,
-        pTestim1, pTestim2,
         prStep1, prStep4,
         pFaq1, pFaq2, pCta, pFooter
       );
@@ -378,26 +362,13 @@ export function FullPageScrollRobot() {
       d += appendVerticalBezier(pWfMidRight, pWfBottomRight);
       d += appendVerticalBezier(pWfBottomRight, pWfBottomMiddle);
 
-      // 5. Smooth exit curve into Testimonials from the middle
-      const pTestim1 = {
-        x: midX - amp * 0.5,
-        y: Math.max(pWfBottomMiddle.y + 80, tTop + tH * 0.35),
-      };
-      const pTestim2 = {
-        x: midX + amp * 0.35,
-        y: Math.max(pTestim1.y + 80, tTop + tH * 0.75),
-      };
-      d += appendVerticalBezier(pWfBottomMiddle, pTestim1);
-      d += appendVerticalBezier(pTestim1, pTestim2);
-      milestonePoints.push(pTestim1, pTestim2);
-
-      // 6. Smooth transition curve connecting directly to ProcessPreview Step 1 (cx=700, cy=150)
+      // 5. Smooth transition curve connecting directly to ProcessPreview Step 1 (cx=700, cy=150)
       const prStep1 = toPr(700, 150);
       const pPrApproach = {
-        x: midX + (prStep1.x - midX) * 0.35,
-        y: tTop + tH * 0.92,
+        x: midX + (prStep1.x - midX) * 0.45,
+        y: Math.max(pWfBottomMiddle.y + 80, (pWfBottomMiddle.y + prStep1.y) * 0.5),
       };
-      d += appendVerticalBezier(pTestim2, pPrApproach);
+      d += appendVerticalBezier(pWfBottomMiddle, pPrApproach);
       d += appendVerticalBezier(pPrApproach, prStep1);
 
       // 8. Process Section Steps 1 through 4 (single continuous line)

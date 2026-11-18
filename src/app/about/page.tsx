@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Target, Eye, Heart, Globe2, Award, Users2, TrendingUp, Calendar, Linkedin, Instagram } from "lucide-react";
+import { ArrowRight, Target, Eye, Heart, Globe2, Award, Users2, TrendingUp, Linkedin, Instagram } from "lucide-react";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/animations/FadeIn";
 import { CTASection } from "@/components/sections/CTASection";
 
@@ -13,18 +13,9 @@ const values = [
   { icon: Target, title: "Outcome-Driven", desc: "We measure success by your business results, not by the complexity of what we build. Every automation has a clear ROI target.", color: "text-violet-400" },
   { icon: Heart, title: "Human-Centered", desc: "AI should amplify human potential, not replace it. We free your team from tedious work so they can do what they do best.", color: "text-pink-400" },
   { icon: Eye, title: "Radical Transparency", desc: "No black boxes. No hidden fees. We explain exactly how your automation works and what it costs before you commit.", color: "text-cyan-400" },
-  { icon: Globe2, title: "Global Thinking", desc: "We work with businesses across three continents, understanding diverse markets, regulations, and operational contexts.", color: "text-green-400" },
+  { icon: Globe2, title: "Global Thinking", desc: "We work with businesses across diverse markets, understanding their operational contexts and workflows.", color: "text-green-400" },
   { icon: Award, title: "Enterprise Quality", desc: "Every automation is built to enterprise standards: documented, monitored, secured, and supported long-term.", color: "text-yellow-400" },
   { icon: TrendingUp, title: "Continuous Improvement", desc: "We don't just build and leave. We monitor, optimize, and evolve your automation as your business grows.", color: "text-orange-400" },
-];
-
-const milestones = [
-  { year: "2021", title: "Founded", desc: "AKVORIX founded with a mission to make AI automation accessible to mid-market businesses." },
-  { year: "2022", title: "First 10 Clients", desc: "Launched our first major automation projects across healthcare and real estate." },
-  { year: "2023", title: "Expanded Services", desc: "Added custom AI agents and n8n automation. Grew to serve clients in Europe and India." },
-  { year: "2024", title: "100+ Automations", desc: "Deployed over 100 automation systems. Launched AI chatbot and lead generation solutions." },
-  { year: "2025", title: "Global Recognition", desc: "Recognized as a top AI automation agency. Clients across 12 countries." },
-  { year: "2026", title: "Today", desc: "Serving 50+ active clients, automating millions of tasks monthly, and expanding our team." },
 ];
 
 export default function AboutPage() {
@@ -75,7 +66,7 @@ export default function AboutPage() {
                   We built AKVORIX to change that. We're a team of AI engineers, automation specialists, and business strategists who translate cutting-edge AI technology into practical, measurable business outcomes — for companies of all sizes.
                 </p>
                 <p className="text-text-primary font-medium">
-                  Today, we've helped 50+ businesses across 12 countries automate millions of tasks, save hundreds of thousands of dollars, and build operations that scale without burning out their teams.
+                  We build production-ready AI agents and tailored automation systems that solve real bottlenecks, eliminate manual work, and give businesses an unfair operational advantage.
                 </p>
               </div>
             </FadeIn>
@@ -181,38 +172,6 @@ export default function AboutPage() {
               </StaggerItem>
             ))}
           </StaggerContainer>
-        </div>
-      </section>
-
-      {/* Timeline */}
-      <section className="section relative overflow-hidden" aria-labelledby="timeline-heading">
-        <div className="absolute inset-0 bg-surface/40" aria-hidden="true" />
-        <div className="container-custom relative z-10">
-          <FadeIn className="text-center mb-14">
-            <h2 id="timeline-heading" className="font-display font-bold text-3xl md:text-4xl text-text-primary mb-4">
-              Our journey so far
-            </h2>
-          </FadeIn>
-          <div className="relative max-w-3xl mx-auto">
-            <div className="timeline-line" aria-hidden="true" />
-            <div className="flex flex-col gap-8">
-              {milestones.map((m, i) => (
-                <FadeIn key={m.year} delay={i * 0.08}>
-                  <div className={`flex gap-8 items-center ${i % 2 === 0 ? "flex-row" : "flex-row-reverse"} md:flex-row`}>
-                    <div className="flex-1 md:text-right">
-                      <div className="glass border border-border rounded-2xl p-5">
-                        <div className="text-primary font-bold text-sm mb-1">{m.year}</div>
-                        <div className="font-display font-semibold text-text-primary mb-1">{m.title}</div>
-                        <p className="text-text-muted text-sm">{m.desc}</p>
-                      </div>
-                    </div>
-                    <div className="w-4 h-4 rounded-full bg-primary border-2 border-background shrink-0 relative z-10 hidden md:block" aria-hidden="true" />
-                    <div className="flex-1 hidden md:block" />
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
