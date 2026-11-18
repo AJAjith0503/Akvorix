@@ -258,9 +258,8 @@ body:has(.case-study-page) .projects-card-number {
 
 /* detail wrapper — image lives here after Flip */
 .projects-content-wrapper {
-  aspect-ratio: 1 / 1;
-  width: 44vw;
-  max-width: 580px;
+  aspect-ratio: 16 / 10;
+  width: 50vw;
   position: relative;
   cursor: pointer;
 }
@@ -435,8 +434,8 @@ body:has(.case-study-page) .projects-card-number {
 @media (max-width: 820px) {
   /* 30% larger than original, then -10% */
   .projects-content-wrapper {
-    width: 80vw;
-    aspect-ratio: 1 / 1;
+    width: 86vw;
+    aspect-ratio: 16 / 10;
   }
 
   /* 30% larger than original, then -10% */
@@ -509,8 +508,8 @@ body:has(.case-study-page) .projects-card-number {
   }
 
   .projects-content-wrapper {
-    width: 85vw;
-    aspect-ratio: 1 / 1;
+    width: 88vw;
+    aspect-ratio: 16 / 10;
   }
 }
 
