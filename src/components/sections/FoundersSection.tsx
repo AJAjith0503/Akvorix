@@ -97,54 +97,6 @@ const FOUNDERS: FounderProfile[] = [
       },
     ],
   },
-  {
-    name: 'Harish A.',
-    role: 'Co-Founder',
-    subtitle: 'Co-founder · Leads operations, client strategy and delivery at AKVORIX',
-    initials: 'HA',
-    linkedin: 'https://www.linkedin.com/company/akvorix',
-    email: 'mailto:contact@akvorix.com',
-    category: 'Operations & Client Growth Strategy',
-    headline: 'Harish A. is a co-founder who leads operations, client onboarding, and delivery execution across all AKVORIX automation deployments.',
-    bio: [
-      'Harish focuses on operational architecture, workflow bottleneck analysis, and business process optimization. He works directly with founders and department heads to uncover repetitive manual tasks, model measurable ROI, and translate operational requirements into actionable technical automation roadmaps.',
-      'At AKVORIX, Harish oversees end-to-end project execution, ensuring every client deployment runs smoothly from the initial discovery workshop through quality assurance, rollout, and post-launch maintenance.',
-    ],
-    whatTheyBuildTitle: 'What they drive',
-    whatTheyBuild: [
-      'Workflow & operational bottleneck audits',
-      'Client ROI modeling and transformation roadmaps',
-      'Deployment quality assurance and testing',
-      'Client onboarding and ongoing support',
-    ],
-    atAkvorixTitle: 'At AKVORIX',
-    atAkvorix: [
-      'Leading client operations and project delivery',
-      'Scoping automation workflows with client teams',
-      'Strategic partnerships and client relationships',
-      'Process optimization and operational excellence',
-    ],
-    timeline: [
-      {
-        period: '2023 – 2024',
-        role: 'Operations & Process Analyst',
-        org: 'Business operations',
-        description: 'Audited operational workflows, mapped manual friction points, and developed business efficiency strategies.',
-      },
-      {
-        period: '2024 – Present',
-        role: 'Client Strategy & Delivery Lead',
-        org: 'Client growth & automation',
-        description: 'Led client discovery sessions, automation feasibility studies, and oversaw customer deployment lifecycles.',
-      },
-      {
-        period: '2025 – Present',
-        role: 'Co-founder & Head of Operations',
-        org: 'AKVORIX',
-        description: 'Directing business operations, client onboarding frameworks, operational scaling, and quality delivery.',
-      },
-    ],
-  },
 ];
 
 export function FoundersSection() {
@@ -162,10 +114,10 @@ export function FoundersSection() {
             Leadership
           </div>
           <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-text-primary tracking-tight mb-5">
-            Meet the founders
+            Meet the founder
           </h2>
           <p className="text-text-secondary text-base sm:text-lg md:text-xl leading-relaxed">
-            What they do, what they work with and what they have built. Where we link to work, you can read the code yourself.
+            What he does, what he works with and what he has built. Where we link to work, you can read the code yourself.
           </p>
         </FadeIn>
 
