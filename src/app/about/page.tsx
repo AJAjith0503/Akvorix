@@ -20,6 +20,17 @@ const values = [
   { icon: TrendingUp, title: "Continuous Improvement", desc: "We don't just build and leave. We monitor, optimize, and evolve your automation as your business grows.", color: "text-orange-400" },
 ];
 
+const globalMarkets = [
+  { code: "us", name: "United States" },
+  { code: "gb", name: "United Kingdom" },
+  { code: "de", name: "Germany" },
+  { code: "nl", name: "Netherlands" },
+  { code: "ae", name: "UAE" },
+  { code: "in", name: "India" },
+  { code: "au", name: "Australia" },
+  { code: "ca", name: "Canada" },
+];
+
 export default function AboutPage() {
   return (
     <>
@@ -198,10 +209,22 @@ export default function AboutPage() {
             <p className="text-text-secondary text-lg max-w-2xl mx-auto mb-10">
               Whether you're in New York, London, or Bangalore — our team is in your timezone and understands your market.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              {["🇺🇸 United States", "🇬🇧 United Kingdom", "🇩🇪 Germany", "🇳🇱 Netherlands", "🇦🇪 UAE", "🇮🇳 India", "🇦🇺 Australia", "🇨🇦 Canada"].map((country) => (
-                <div key={country} className="px-4 py-2.5 glass border border-border rounded-xl text-text-secondary text-sm hover:text-text-primary hover:border-primary/30 transition-colors">
-                  {country}
+            <div className="flex flex-wrap justify-center gap-3.5">
+              {globalMarkets.map((market) => (
+                <div
+                  key={market.code}
+                  className="inline-flex items-center gap-2.5 px-4 py-2.5 glass border border-border rounded-xl text-text-secondary text-sm font-medium hover:text-text-primary hover:border-primary/40 hover:bg-surface/80 transition-all shadow-sm"
+                >
+                  <span className="relative w-5 h-3.5 rounded-xs overflow-hidden shadow-xs shrink-0 border border-black/10 dark:border-white/10 flex items-center justify-center">
+                    <Image
+                      src={`/images/flags/${market.code}.svg`}
+                      alt={`${market.name} flag`}
+                      width={20}
+                      height={14}
+                      className="w-full h-full object-cover"
+                    />
+                  </span>
+                  <span>{market.name}</span>
                 </div>
               ))}
             </div>
