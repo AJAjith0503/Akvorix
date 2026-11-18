@@ -109,6 +109,14 @@ export default function WebProjectsSection() {
           if (currentOpenIndex === null) {
             gsap.set(scrollContent, { x: -self.progress * getScrollWidth() });
             applyParallax();
+
+            // Fade out the section header as soon as user begins scrolling so cards never collide with it
+            const headerEl = rootRef.current?.querySelector('.projects-section-header');
+            if (headerEl) {
+              const headerOpacity = gsap.utils.clamp(0, 1, 1 - (self.progress * 12));
+              const headerY = -self.progress * 50;
+              gsap.set(headerEl, { opacity: headerOpacity, y: headerY, force3D: true });
+            }
           }
         },
       });

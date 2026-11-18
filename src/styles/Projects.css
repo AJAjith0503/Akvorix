@@ -71,6 +71,7 @@
   align-items: center;
   width: fit-content;
   height: 100%;
+  padding-top: 8vh;
   padding-left: 35vw;
   padding-right: 15vw;
   /* Changed from 35vw to 15vw to reduce empty scrolling at the end */
@@ -89,7 +90,7 @@
 
 .projects-gallery-image {
   aspect-ratio: 16 / 10;
-  height: 42vh;
+  height: 38vh;
   cursor: pointer;
   flex-shrink: 0;
   clip-path: inset(-60px);
@@ -98,11 +99,11 @@
 }
 
 .projects-gallery-image:nth-child(odd) {
-  transform: translateY(30%);
+  transform: translateY(10%);
 }
 
 .projects-gallery-image:nth-child(even) {
-  transform: translateY(-30%);
+  transform: translateY(-8%);
 }
 
 .projects-card-number {
