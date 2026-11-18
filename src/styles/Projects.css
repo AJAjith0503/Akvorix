@@ -35,7 +35,7 @@
 }
 
 .projects-section-num {
-  font-family: var(--font-heading), 'Inter', sans-serif;
+  font-family: 'Syne', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -44,9 +44,9 @@
 }
 
 .projects-section-title {
-  font-family: var(--font-heading), 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(2rem, 3.2vw, 3.2rem);
-  font-weight: 800;
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2.2rem, 3.4vw, 3.4rem);
+  font-weight: 700;
   letter-spacing: -0.02em;
   color: #111827;
   line-height: 1.15;
@@ -112,9 +112,9 @@
   top: 0;
   left: 0;
   transform: translate(-45%, -50%);
-  font-family: var(--font-heading), 'Inter', sans-serif;
+  font-family: 'Syne', sans-serif;
   font-size: clamp(3.2rem, 5.5vw, 6.5rem);
-  font-weight: 900;
+  font-weight: 800;
   color: #6B3F69;
   background: linear-gradient(135deg, #6B3F69 0%, #8E548B 50%, #B878B5 100%);
   -webkit-background-clip: text;
