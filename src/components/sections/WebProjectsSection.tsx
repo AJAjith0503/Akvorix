@@ -80,22 +80,9 @@ export default function WebProjectsSection() {
       };
 
       function applyParallax() {
-        const vw = window.innerWidth;
-        const viewportCenter = vw * 0.5;
         const galleryImages = scrollContent.querySelectorAll('.projects-image-container img');
-
         galleryImages.forEach((image) => {
-          const parent = image.parentElement;
-          if (!parent) return;
-
-          const rect = parent.getBoundingClientRect();
-          const elementCenter = rect.left + rect.width * 0.5;
-
-          const t = gsap.utils.clamp(-1, 1, (elementCenter - viewportCenter) / viewportCenter);
-          const maxShift = 5;
-          const shift = -t * maxShift;
-
-          gsap.set(image, { xPercent: shift, force3D: true });
+          gsap.set(image, { xPercent: 0, force3D: true });
         });
       }
 
@@ -210,7 +197,7 @@ export default function WebProjectsSection() {
         st.disable(false);
 
         const otherGalleries = galleryWrapperRefs.current.filter((_, i) => i !== index);
-        gsap.set(otherGalleries, { clipPath: 'inset(-6vw 0px 0px -6vw)' });
+        gsap.set(otherGalleries, { clipPath: 'inset(-60px)' });
 
         const tl = gsap.timeline({
           onComplete: () => {
@@ -320,7 +307,7 @@ export default function WebProjectsSection() {
           }, 'start+=0.25')
           .to(
             galleryWrapperRefs.current.filter((_, i) => i !== index),
-            { clipPath: 'inset(-6vw 0px 0px -6vw)' }
+            { clipPath: 'inset(-60px)' }
           )
           .set(galleryWrapperRefs.current, { clipPath: 'none' });
       };
