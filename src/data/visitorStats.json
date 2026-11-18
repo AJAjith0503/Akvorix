@@ -1,45 +1,75 @@
 {
-  "totalVisits": 0,
-  "uniqueVisitors": 0,
-  "visitorIds": [],
+  "totalVisits": 1,
+  "uniqueVisitors": 1,
+  "visitorIds": [
+    "v_nmbmbzjqtmwm2q1h0"
+  ],
   "capturedEmails": [],
   "visitorJourneys": {
     "v_jejs769y7mwiqkw8g": {
       "visitorId": "v_jejs769y7mwiqkw8g",
       "sessionStarted": "2026-11-16T04:01:20.944Z",
-      "lastActive": "2026-11-16T06:29:55.436Z",
-      "totalTimeOnSiteSeconds": 1736,
+      "lastActive": "2026-11-18T11:37:28.689Z",
+      "totalTimeOnSiteSeconds": 23030,
       "pages": {
         "/": {
           "path": "/",
           "title": "AKVORIX — AI Automation Agency | Save Time, Cut Costs, Scale Business",
-          "visitCount": 11,
-          "totalDurationSeconds": 1696,
+          "visitCount": 29,
+          "totalDurationSeconds": 18982,
           "firstVisited": "2026-11-16T04:01:20.944Z",
-          "lastVisited": "2026-11-16T05:31:12.827Z"
+          "lastVisited": "2026-11-18T09:40:24.526Z"
         },
         "/about": {
           "path": "/about",
-          "title": "/about",
-          "visitCount": 1,
-          "totalDurationSeconds": 40,
+          "title": "About AKVORIX — Our Story, Mission & Team | AKVORIX",
+          "visitCount": 21,
+          "totalDurationSeconds": 2252,
           "firstVisited": "2026-11-16T04:02:49.273Z",
-          "lastVisited": "2026-11-16T04:02:49.273Z"
+          "lastVisited": "2026-11-18T11:13:45.932Z"
+        },
+        "/services/website-development": {
+          "path": "/services/website-development",
+          "title": "Website & Web App Development — AKVORIX | AKVORIX",
+          "visitCount": 18,
+          "totalDurationSeconds": 1693,
+          "firstVisited": "2026-11-18T06:42:03.115Z",
+          "lastVisited": "2026-11-18T09:23:17.220Z"
+        },
+        "/process": {
+          "path": "/process",
+          "title": "/process",
+          "visitCount": 2,
+          "totalDurationSeconds": 12,
+          "firstVisited": "2026-11-18T07:46:34.014Z",
+          "lastVisited": "2026-11-18T09:24:17.960Z"
+        },
+        "/cookies": {
+          "path": "/cookies",
+          "title": "/cookies",
+          "visitCount": 1,
+          "totalDurationSeconds": 18,
+          "firstVisited": "2026-11-18T08:51:58.633Z",
+          "lastVisited": "2026-11-18T08:51:58.633Z"
+        },
+        "/refund": {
+          "path": "/refund",
+          "title": "/refund",
+          "visitCount": 1,
+          "totalDurationSeconds": 58,
+          "firstVisited": "2026-11-18T08:52:16.401Z",
+          "lastVisited": "2026-11-18T08:52:16.401Z"
+        },
+        "/case-studies": {
+          "path": "/case-studies",
+          "title": "404 — Page Not Found | AKVORIX | AKVORIX",
+          "visitCount": 2,
+          "totalDurationSeconds": 15,
+          "firstVisited": "2026-11-18T08:53:55.584Z",
+          "lastVisited": "2026-11-18T08:53:55.630Z"
         }
       },
       "clicks": [
-        {
-          "text": "Close dialog",
-          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
-          "page": "/",
-          "timestamp": "9:31:28 AM"
-        },
-        {
-          "text": "Close",
-          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
-          "page": "/",
-          "timestamp": "9:31:32 AM"
-        },
         {
           "text": "About",
           "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
@@ -145,12 +175,703 @@
           "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
           "page": "/",
           "timestamp": "11:20:14 AM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "12:11:56 PM"
+        },
+        {
+          "text": "Services",
+          "elementClass": "flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-",
+          "page": "/",
+          "timestamp": "12:11:59 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "12:12:01 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "12:12:02 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/services/website-development",
+          "timestamp": "12:12:39 PM"
+        },
+        {
+          "text": "CASE STUDY",
+          "elementClass": "projects-case-study-btn",
+          "page": "/services/website-development",
+          "timestamp": "12:12:41 PM"
+        },
+        {
+          "text": "BACK TO PORTFOLIO",
+          "elementClass": "case-study-back-btn",
+          "page": "/services/website-development",
+          "timestamp": "12:12:46 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/services/website-development",
+          "timestamp": "12:53:13 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/about",
+          "timestamp": "12:57:58 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/about",
+          "timestamp": "12:58:01 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/services/website-development",
+          "timestamp": "12:58:20 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/services/website-development",
+          "timestamp": "1:10:01 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "1:15:25 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "1:15:28 PM"
+        },
+        {
+          "text": "Website & Web App Development\n\nPremium websites and web applications built to co",
+          "elementClass": "flex flex-col h-full w-full max-w-lg lg:max-w-[75%] glass bo",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "1:15:34 PM"
+        },
+        {
+          "text": "Website & Web App Development\n\nPremium websites and web applications built to co",
+          "elementClass": "flex flex-col h-full w-full max-w-lg lg:max-w-[75%] glass bo",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "1:15:35 PM"
+        },
+        {
+          "text": "How We Work",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/process",
+          "page": "/services/website-development",
+          "timestamp": "1:16:33 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/process",
+          "timestamp": "1:16:42 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/services/website-development",
+          "timestamp": "1:21:00 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/services/website-development",
+          "timestamp": "1:21:08 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "1:21:10 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "1:21:17 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/about",
+          "timestamp": "1:21:19 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "1:21:24 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/services/website-development",
+          "timestamp": "1:21:35 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "1:21:37 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "1:22:06 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/about",
+          "timestamp": "1:23:24 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "1:23:27 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/about",
+          "timestamp": "1:28:34 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "1:28:37 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "1:40:04 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "1:40:12 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "1:40:30 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/about",
+          "timestamp": "1:40:31 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "2:17:22 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "2:17:36 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/about",
+          "timestamp": "2:17:39 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/services/website-development",
+          "timestamp": "2:19:45 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/services/website-development",
+          "timestamp": "2:20:26 PM"
+        },
+        {
+          "text": "Cookie Policy",
+          "elementClass": "text-text-muted hover:text-text-primary transition-colors te",
+          "targetUrl": "/cookies",
+          "page": "/about",
+          "timestamp": "2:21:57 PM"
+        },
+        {
+          "text": "Refund Policy",
+          "elementClass": "text-text-muted hover:text-text-primary transition-colors te",
+          "targetUrl": "/refund",
+          "page": "/cookies",
+          "timestamp": "2:22:15 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/refund",
+          "timestamp": "2:23:14 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "2:23:17 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "2:23:29 PM"
+        },
+        {
+          "text": "Services",
+          "elementClass": "flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-",
+          "page": "/about",
+          "timestamp": "2:23:30 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/about",
+          "timestamp": "2:23:32 PM"
+        },
+        {
+          "text": "See Real Results",
+          "elementClass": "btn-secondary px-8 py-4 w-full md:w-auto text-center justify",
+          "targetUrl": "/case-studies",
+          "page": "/services/website-development",
+          "timestamp": "2:23:54 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/case-studies",
+          "timestamp": "2:39:26 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/case-studies",
+          "timestamp": "2:39:28 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "2:39:39 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "2:39:59 PM"
+        },
+        {
+          "text": "CASE STUDY",
+          "elementClass": "projects-case-study-btn",
+          "page": "/services/website-development",
+          "timestamp": "2:40:19 PM"
+        },
+        {
+          "text": "LIVE DEMO",
+          "elementClass": "case-study-link-btn live",
+          "targetUrl": "#",
+          "page": "/services/website-development",
+          "timestamp": "2:40:22 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/services/website-development",
+          "timestamp": "2:40:32 PM"
+        },
+        {
+          "text": "CASE STUDY",
+          "elementClass": "projects-case-study-btn",
+          "page": "/services/website-development",
+          "timestamp": "2:40:40 PM"
+        },
+        {
+          "text": "LIVE DEMO",
+          "elementClass": "case-study-link-btn live",
+          "targetUrl": "#",
+          "page": "/services/website-development",
+          "timestamp": "2:40:44 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/services/website-development",
+          "timestamp": "2:40:52 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/services/website-development",
+          "timestamp": "2:40:57 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/services/website-development",
+          "timestamp": "2:45:29 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "2:45:32 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/",
+          "timestamp": "2:53:17 PM"
+        },
+        {
+          "text": "Web Project Demo",
+          "elementClass": "btn-secondary px-8 py-4 w-full md:w-auto text-center justify",
+          "targetUrl": "#web_project",
+          "page": "/services/website-development",
+          "timestamp": "2:53:28 PM"
+        },
+        {
+          "text": "CASE STUDY",
+          "elementClass": "projects-case-study-btn",
+          "page": "/services/website-development",
+          "timestamp": "2:53:33 PM"
+        },
+        {
+          "text": "LIVE DEMO",
+          "elementClass": "case-study-link-btn live",
+          "targetUrl": "https://gym-seven-chi-61.vercel.app/",
+          "page": "/services/website-development",
+          "timestamp": "2:53:35 PM"
+        },
+        {
+          "text": "BACK TO PORTFOLIO",
+          "elementClass": "case-study-back-btn",
+          "page": "/services/website-development",
+          "timestamp": "2:53:42 PM"
+        },
+        {
+          "text": "How We Work",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/process",
+          "page": "/services/website-development",
+          "timestamp": "2:54:17 PM"
+        },
+        {
+          "text": "How We Work",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/process",
+          "page": "/process",
+          "timestamp": "2:54:18 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/process",
+          "timestamp": "2:54:21 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/about",
+          "timestamp": "3:07:52 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "3:10:31 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "3:10:35 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/about",
+          "timestamp": "3:10:36 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/about",
+          "timestamp": "3:11:14 PM"
+        },
+        {
+          "text": "GitHub",
+          "elementClass": "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bo",
+          "targetUrl": "https://github.com/AJAjith0503",
+          "page": "/about",
+          "timestamp": "3:12:22 PM"
+        },
+        {
+          "text": "srivishnupark.com",
+          "elementClass": "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bord",
+          "targetUrl": "https://restaurant-seven-jade.vercel.app/",
+          "page": "/about",
+          "timestamp": "3:15:18 PM"
+        },
+        {
+          "text": "LinkedIn",
+          "elementClass": "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bo",
+          "targetUrl": "https://www.linkedin.com/company/akvorix",
+          "page": "/about",
+          "timestamp": "3:15:35 PM"
+        },
+        {
+          "text": "LinkedIn",
+          "elementClass": "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bo",
+          "targetUrl": "https://www.linkedin.com/company/akvorix",
+          "page": "/about",
+          "timestamp": "3:16:58 PM"
+        },
+        {
+          "text": "LinkedIn",
+          "elementClass": "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bo",
+          "targetUrl": "https://www.linkedin.com/company/akvorix",
+          "page": "/about",
+          "timestamp": "3:18:09 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/about",
+          "timestamp": "3:27:35 PM"
+        },
+        {
+          "text": "GitHub",
+          "elementClass": "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bo",
+          "targetUrl": "https://github.com/AJAjith0503",
+          "page": "/about",
+          "timestamp": "4:15:57 PM"
+        },
+        {
+          "text": "Contact",
+          "elementClass": "inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bo",
+          "targetUrl": "mailto:contact@akvorix.com",
+          "page": "/about",
+          "timestamp": "4:16:02 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/about",
+          "timestamp": "4:18:30 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/about",
+          "timestamp": "4:44:03 PM"
         }
       ],
-      "inferredInterests": [],
+      "inferredInterests": [
+        "Web & App Development",
+        "Restaurant Reservation AI",
+        "Ready to Contact / Consultation"
+      ],
+      "referrer": "Direct",
+      "device": "Desktop"
+    },
+    "v_nmbmbzjqtmwm2q1h0": {
+      "visitorId": "v_nmbmbzjqtmwm2q1h0",
+      "sessionStarted": "2026-11-18T12:04:34.932Z",
+      "lastActive": "2026-11-18T12:12:25.537Z",
+      "totalTimeOnSiteSeconds": 131,
+      "pages": {
+        "/": {
+          "path": "/",
+          "title": "AKVORIX — AI Automation Agency | Save Time, Cut Costs, Scale Business",
+          "visitCount": 4,
+          "totalDurationSeconds": 28,
+          "firstVisited": "2026-11-18T12:04:34.934Z",
+          "lastVisited": "2026-11-18T12:07:54.339Z"
+        },
+        "/about": {
+          "path": "/about",
+          "title": "/about",
+          "visitCount": 1,
+          "totalDurationSeconds": 27,
+          "firstVisited": "2026-11-18T12:08:17.476Z",
+          "lastVisited": "2026-11-18T12:08:17.476Z"
+        },
+        "/services/website-development": {
+          "path": "/services/website-development",
+          "title": "/services/website-development",
+          "visitCount": 1,
+          "totalDurationSeconds": 24,
+          "firstVisited": "2026-11-18T12:08:44.317Z",
+          "lastVisited": "2026-11-18T12:08:44.317Z"
+        },
+        "/process": {
+          "path": "/process",
+          "title": "Our Process — How We Automate Your Business | AKVORIX | AKVORIX",
+          "visitCount": 2,
+          "totalDurationSeconds": 46,
+          "firstVisited": "2026-11-18T12:09:07.960Z",
+          "lastVisited": "2026-11-18T12:09:16.922Z"
+        },
+        "/contact": {
+          "path": "/contact",
+          "title": "/contact",
+          "visitCount": 1,
+          "totalDurationSeconds": 6,
+          "firstVisited": "2026-11-18T12:09:11.329Z",
+          "lastVisited": "2026-11-18T12:09:11.329Z"
+        }
+      },
+      "clicks": [
+        {
+          "text": "Accept analytics",
+          "elementClass": "flex-1 py-2 px-3 sm:px-4 rounded-full border border-white/20",
+          "page": "/",
+          "timestamp": "5:38:01 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "5:38:03 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "5:38:05 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "5:38:16 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/about",
+          "timestamp": "5:38:17 PM"
+        },
+        {
+          "text": "Services",
+          "elementClass": "flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-",
+          "page": "/about",
+          "timestamp": "5:38:40 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/about",
+          "timestamp": "5:38:42 PM"
+        },
+        {
+          "text": "Website & Web App Development\nPremium conversion-focused sites",
+          "elementClass": "flex items-start gap-3 p-3 rounded-xl hover:bg-primary/5 tra",
+          "targetUrl": "/services/website-development",
+          "page": "/about",
+          "timestamp": "5:38:44 PM"
+        },
+        {
+          "text": "How We Work",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/process",
+          "page": "/services/website-development",
+          "timestamp": "5:39:07 PM"
+        },
+        {
+          "text": "Contact",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/contact",
+          "page": "/process",
+          "timestamp": "5:39:10 PM"
+        },
+        {
+          "text": "How We Work",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/process",
+          "page": "/contact",
+          "timestamp": "5:39:16 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "5:42:23 PM"
+        }
+      ],
+      "inferredInterests": [
+        "Web & App Development",
+        "Ready to Contact / Consultation"
+      ],
       "referrer": "Direct",
       "device": "Desktop"
     }
   },
-  "lastUpdated": "2026-11-16T06:29:55.462Z"
+  "lastUpdated": "2026-11-18T12:12:25.571Z"
 }
