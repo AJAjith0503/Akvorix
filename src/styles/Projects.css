@@ -71,10 +71,8 @@
   align-items: center;
   width: fit-content;
   height: 100%;
-  padding-top: 8vh;
-  padding-left: 35vw;
-  padding-right: 15vw;
-  /* Changed from 35vw to 15vw to reduce empty scrolling at the end */
+  padding-left: 28vw;
+  padding-right: 14vw;
   will-change: transform;
 }
 
@@ -84,13 +82,13 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  gap: 7.5vw;
+  gap: 5.5vw;
   height: 100%;
 }
 
 .projects-gallery-image {
-  aspect-ratio: 16 / 10;
-  height: 38vh;
+  aspect-ratio: 1 / 1;
+  height: 48vh;
   cursor: pointer;
   flex-shrink: 0;
   clip-path: inset(-60px);
@@ -99,11 +97,11 @@
 }
 
 .projects-gallery-image:nth-child(odd) {
-  transform: translateY(10%);
+  transform: translateY(16%);
 }
 
 .projects-gallery-image:nth-child(even) {
-  transform: translateY(-8%);
+  transform: translateY(-16%);
 }
 
 .projects-card-number {
@@ -260,8 +258,9 @@ body:has(.case-study-page) .projects-card-number {
 
 /* detail wrapper — image lives here after Flip */
 .projects-content-wrapper {
-  aspect-ratio: 16 / 9;
-  width: 50vw;
+  aspect-ratio: 1 / 1;
+  width: 44vw;
+  max-width: 580px;
   position: relative;
   cursor: pointer;
 }
@@ -436,14 +435,15 @@ body:has(.case-study-page) .projects-card-number {
 @media (max-width: 820px) {
   /* 30% larger than original, then -10% */
   .projects-content-wrapper {
-    width: 86vw;
+    width: 80vw;
+    aspect-ratio: 1 / 1;
   }
 
   /* 30% larger than original, then -10% */
   .projects-gallery-image {
     height: auto;
-    width: 72vw;
-    aspect-ratio: 16 / 10;
+    width: 74vw;
+    aspect-ratio: 1 / 1;
   }
 
   .projects-scroll-content {
@@ -504,12 +504,13 @@ body:has(.case-study-page) .projects-card-number {
 /* SM (361px–540px): smaller phones */
 @media (max-width: 540px) {
   .projects-gallery-image {
-    width: 80vw;
-    aspect-ratio: 16 / 10;
+    width: 82vw;
+    aspect-ratio: 1 / 1;
   }
 
   .projects-content-wrapper {
     width: 85vw;
+    aspect-ratio: 1 / 1;
   }
 }
 
