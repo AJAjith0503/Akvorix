@@ -1,5 +1,5 @@
 {
-  "totalVisits": 1,
+  "totalVisits": 12,
   "uniqueVisitors": 1,
   "visitorIds": [
     "v_nmbmbzjqtmwm2q1h0"
@@ -740,24 +740,24 @@
     "v_nmbmbzjqtmwm2q1h0": {
       "visitorId": "v_nmbmbzjqtmwm2q1h0",
       "sessionStarted": "2026-11-18T12:04:34.932Z",
-      "lastActive": "2026-11-18T12:12:25.537Z",
-      "totalTimeOnSiteSeconds": 131,
+      "lastActive": "2026-11-18T13:37:35.890Z",
+      "totalTimeOnSiteSeconds": 442,
       "pages": {
         "/": {
           "path": "/",
           "title": "AKVORIX — AI Automation Agency | Save Time, Cut Costs, Scale Business",
-          "visitCount": 4,
-          "totalDurationSeconds": 28,
+          "visitCount": 17,
+          "totalDurationSeconds": 221,
           "firstVisited": "2026-11-18T12:04:34.934Z",
-          "lastVisited": "2026-11-18T12:07:54.339Z"
+          "lastVisited": "2026-11-18T13:37:01.366Z"
         },
         "/about": {
           "path": "/about",
-          "title": "/about",
-          "visitCount": 1,
-          "totalDurationSeconds": 27,
+          "title": "About AKVORIX — Our Story, Mission & Team | AKVORIX",
+          "visitCount": 4,
+          "totalDurationSeconds": 137,
           "firstVisited": "2026-11-18T12:08:17.476Z",
-          "lastVisited": "2026-11-18T12:08:17.476Z"
+          "lastVisited": "2026-11-18T12:59:39.572Z"
         },
         "/services/website-development": {
           "path": "/services/website-development",
@@ -770,10 +770,10 @@
         "/process": {
           "path": "/process",
           "title": "Our Process — How We Automate Your Business | AKVORIX | AKVORIX",
-          "visitCount": 2,
-          "totalDurationSeconds": 46,
+          "visitCount": 3,
+          "totalDurationSeconds": 54,
           "firstVisited": "2026-11-18T12:09:07.960Z",
-          "lastVisited": "2026-11-18T12:09:16.922Z"
+          "lastVisited": "2026-11-18T12:59:31.781Z"
         },
         "/contact": {
           "path": "/contact",
@@ -863,6 +863,101 @@
           "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
           "page": "/",
           "timestamp": "5:42:23 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "5:50:28 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "5:51:21 PM"
+        },
+        {
+          "text": "Accept analytics",
+          "elementClass": "flex-1 py-2 px-3 sm:px-4 rounded-full border border-white/20",
+          "page": "/about",
+          "timestamp": "5:51:32 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "6:29:23 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/",
+          "timestamp": "6:29:25 PM"
+        },
+        {
+          "text": "How We Work",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/process",
+          "page": "/about",
+          "timestamp": "6:29:31 PM"
+        },
+        {
+          "text": "Services",
+          "elementClass": "flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-",
+          "page": "/process",
+          "timestamp": "6:29:33 PM"
+        },
+        {
+          "text": "About",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/about",
+          "page": "/process",
+          "timestamp": "6:29:39 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/about",
+          "timestamp": "6:30:05 PM"
+        },
+        {
+          "text": "Home",
+          "elementClass": "px-4 py-2 rounded-xl text-sm font-medium transition-all dura",
+          "targetUrl": "/",
+          "page": "/about",
+          "timestamp": "6:38:29 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "6:38:31 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "6:52:14 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "6:53:37 PM"
+        },
+        {
+          "text": "Close dialog",
+          "elementClass": "w-9 h-9 rounded-full border border-border hover:border-prima",
+          "page": "/",
+          "timestamp": "7:07:08 PM"
+        },
+        {
+          "text": "Close",
+          "elementClass": "absolute top-3 right-3 text-gray-400 hover:text-white transi",
+          "page": "/",
+          "timestamp": "7:07:22 PM"
         }
       ],
       "inferredInterests": [
@@ -873,5 +968,5 @@
       "device": "Desktop"
     }
   },
-  "lastUpdated": "2026-11-18T12:12:25.571Z"
+  "lastUpdated": "2026-11-18T13:37:35.912Z"
 }
