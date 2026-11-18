@@ -353,7 +353,6 @@ export default function WebProjectsSection() {
 
       <div ref={scrollWrapperRef} className="projects-scroll-wrapper">
         <div className="projects-section-header animate-element section-header-container">
-          <span className="projects-section-num section-header-num">[ 07 ]</span>
           <h2 className="projects-section-title section-header-title">
             Web <span className="gradient-text">Projects</span>
           </h2>

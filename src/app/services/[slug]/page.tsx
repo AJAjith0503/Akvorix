@@ -77,8 +77,11 @@ export default function ServicePage({ params }: Props) {
               <Link href="/contact#book-call" className="btn-primary px-8 py-4 w-full md:w-auto text-center justify-center">
                 Get a Free Assessment <ArrowRight className="w-5 h-5" />
               </Link>
-              <Link href="/case-studies" className="btn-secondary px-8 py-4 w-full md:w-auto text-center justify-center">
-                See Real Results
+              <Link
+                href={params.slug === "website-development" ? "#web_project" : "/services/website-development#web_project"}
+                className="btn-secondary px-8 py-4 w-full md:w-auto text-center justify-center"
+              >
+                Web Project Demo
               </Link>
             </div>
           </FadeIn>
