@@ -85,14 +85,14 @@ export default function AboutPage() {
             </FadeIn>
 
             <FadeIn delay={0.2} direction="left">
-              {/* Founder card */}
+              {/* Co-founder card */}
               <div className="glass border border-border rounded-3xl p-8">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="relative w-16 h-16 rounded-2xl p-[1.5px] bg-gradient-to-br from-[#6B3F69] via-[#8B5F89] to-[#A97EA7] shadow-md shadow-[#6B3F69]/20 shrink-0">
                     <div className="w-full h-full rounded-[14px] overflow-hidden relative bg-surface">
                       <Image
                         src="/images/founders/ajith-k-v.jpg"
-                        alt="Ajith K V — Founder AKVORIX"
+                        alt="Ajith K V — Co-Founder AKVORIX"
                         fill
                         className="object-cover object-[center_20%]"
                       />
@@ -100,7 +100,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <div className="font-display font-bold text-xl text-text-primary">Ajith K V</div>
-                    <div className="text-text-muted text-sm">Founder & Chief Architect · AKVORIX</div>
+                    <div className="text-text-muted text-sm">Co-Founder & Chief Architect · AKVORIX</div>
                   </div>
                 </div>
                 <blockquote className="text-text-secondary leading-relaxed italic mb-6">

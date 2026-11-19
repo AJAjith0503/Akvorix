@@ -42,15 +42,15 @@ interface FounderProfile {
 const FOUNDERS: FounderProfile[] = [
   {
     name: 'Ajith K V',
-    role: 'Founder',
-    subtitle: 'Founder · Leads AKVORIX and builds its products',
+    role: 'Co-Founder',
+    subtitle: 'Co-founder · Leads AKVORIX and builds its products',
     image: '/images/founders/ajith-k-v.jpg',
     initials: 'AK',
     linkedin: 'https://www.linkedin.com/in/ajith-k-v-aj1484/',
     github: 'https://github.com/AJAjith0503',
     email: 'mailto:contact@akvorix.com',
     category: 'Full-stack and AI engineering',
-    headline: 'Ajith K V is the founder who leads AKVORIX and builds its products, from the database and APIs to the interface and AI features.',
+    headline: 'Ajith K V is a co-founder who leads AKVORIX and builds its products, from the database and APIs to the interface and AI features.',
     bio: [
       'Ajith started with backend architecture and systems programming, transitioning into high-performance full-stack and AI engineering. He specializes in designing autonomous multi-agent pipelines, resilient n8n workflow systems, custom LLM integrations, and reactive web applications built for speed and conversion.',
       'Ajith engineered the AKVORIX platform and architected our client solutions across healthcare, e-commerce, real estate, and consumer tech. Where we link to our web and AI products below, you can inspect the live builds and source code directly.',
@@ -91,7 +91,7 @@ const FOUNDERS: FounderProfile[] = [
       },
       {
         period: '2025 – Present',
-        role: 'Founder & Chief Architect',
+        role: 'Co-Founder & Chief Architect',
         org: 'AKVORIX',
         description: 'Leading product development, technology strategy, client system engineering, and end-to-end automation delivery.',
       },
@@ -114,7 +114,7 @@ export function FoundersSection() {
             Leadership
           </div>
           <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-text-primary tracking-tight mb-5">
-            Meet the founder
+            Meet the co-founder
           </h2>
           <p className="text-text-secondary text-base sm:text-lg md:text-xl leading-relaxed">
             What he does, what he works with and what he has built. Where we link to work, you can read the code yourself.
