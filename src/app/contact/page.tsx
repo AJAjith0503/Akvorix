@@ -128,8 +128,15 @@ export default function ContactPage() {
                          <MapPin className="w-5 h-5 text-white" />
                       </div>
                       <div>
-                         <div className="text-sm text-text-muted mb-1">Global HQ</div>
-                         <div className="text-lg font-medium text-text-primary">San Francisco, CA<br/><span className="text-sm font-normal text-text-secondary">Offices in London & Bangalore</span></div>
+                         <div className="text-sm text-text-muted mb-1">Office Location</div>
+                         <a
+                            href="https://www.google.com/maps/search/?api=1&query=Hoskote,+Bengaluru,+Karnataka+562114"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg font-medium text-text-primary hover:text-accent transition-colors block"
+                         >
+                            Hoskote, Bangalore<br/><span className="text-sm font-normal text-text-secondary hover:text-text-primary transition-colors">Karnataka 562114, India</span>
+                         </a>
                       </div>
                    </div>
 

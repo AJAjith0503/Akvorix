@@ -38,7 +38,10 @@ const jsonLd = {
   ],
   address: {
     "@type": "PostalAddress",
-    addressCountry: "US",
+    addressLocality: "Hoskote, Bengaluru",
+    addressRegion: "Karnataka",
+    postalCode: "562114",
+    addressCountry: "IN",
   },
 };
 

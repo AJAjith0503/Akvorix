@@ -149,7 +149,7 @@ export default function DisclaimerPage() {
               <div className="flex items-center gap-3 p-3 rounded-xl bg-surface/50 border border-border sm:col-span-2">
                 <MapPin className="w-4 h-4 text-primary shrink-0" />
                 <span className="text-text-muted">
-                  Bengaluru, Karnataka, India
+                  Hoskote, Bengaluru, Karnataka 562114, India
                 </span>
               </div>
             </div>
